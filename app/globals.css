@@ -1,0 +1,14 @@
+:root{
+  --grafit:#232B36; --slate:#46536B; --smaragd:#0B9C64; --smaragd-svetly:#12B978;
+  --papier:#F6F9F7; --ink:#1A222C; --siva:#5B6472; --linka:#E3E8E5;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,system-ui,sans-serif;background:var(--papier);color:var(--ink);line-height:1.55}
+h1,h2,h3{font-family:Lexend,Inter,sans-serif;color:var(--grafit);letter-spacing:-.02em}
+button{font:inherit;cursor:pointer}
+.btn{background:var(--grafit);color:#fff;border:none;border-radius:10px;padding:10px 16px;font-weight:600}
+.btn:hover{background:var(--slate)}
+.btn-zeleny{background:var(--smaragd)} .btn-zeleny:hover{background:#0a8a59}
+.karta{background:#fff;border:1px solid var(--linka);border-radius:14px;padding:18px}
+input,select,textarea{font:inherit;padding:9px 12px;border:1px solid var(--linka);border-radius:10px;background:#fff;width:100%}
+label{font-weight:600;font-size:.85rem;color:var(--slate);display:block;margin:10px 0 4px}
