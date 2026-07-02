@@ -134,8 +134,8 @@ export default function Landing() {
             <input type="text" name="meno" placeholder="Meno (nepovinné)" autoComplete="name" />
             <input type="email" name="email" placeholder="vas@email.sk" required autoComplete="email" />
             <button className="btn btn-zeleny" type="submit">Odoberať novinky</button>
+            <label className="gdpr"><input type="checkbox" name="gdpr" /> Súhlasím so spracovaním e-mailu na zasielanie informácií o vzdelávaní (odvolateľné kedykoľvek). Zásady ochrany osobných údajov.</label>
           </form>
-          <label className="gdpr"><input type="checkbox" name="gdpr" /> Súhlasím so spracovaním e-mailu na zasielanie informácií o vzdelávaní (odvolateľné kedykoľvek). Zásady ochrany osobných údajov.</label>
           {nlStav && <div className="ok">{nlStav}</div>}
         </div>
       </section>
